@@ -28,7 +28,9 @@ share/python-wheels/
 MANIFEST
 
 # 개인 설정 파일
-helper/StockInfo.yaml
+helper/PersonalInfo.yaml
 # 생성된 토큰들
 token/
 
+# VSCODE
+.vscode
