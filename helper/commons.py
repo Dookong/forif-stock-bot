@@ -5,7 +5,7 @@ import json
 info = None
 
 #설정 파일 정보 로딩
-with open('PersonalInfo.yaml', encoding='UTF-8') as f:
+with open('../helper/PersonalInfo.yaml', encoding='UTF-8') as f:
     info = yaml.load(f, Loader=yaml.FullLoader)
     
     

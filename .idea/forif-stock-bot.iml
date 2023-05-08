@@ -7,4 +7,13 @@
     <orderEntry type="jdk" jdkName="Python 3.11 (forif-stock-bot)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/analysis" />
+        <option value="$MODULE_DIR$/technical" />
+        <option value="$MODULE_DIR$/helper" />
+      </list>
+    </option>
+  </component>
 </module>

@@ -222,15 +222,4 @@ def get_financial_info(ticker):
 if __name__ == '__main__':
     print(is_market_open())
 
-    dicts = []
-    for ticker in tqdm(get_hot_tickers("코스닥")):
-        dicts.append(get_financial_info(ticker))
 
-    # 코스피 전체 종목은 900개 이상 -> 3시간 넘게 소요..
-    # for stock in tqdm(kis.market.kospi.all()):
-    #     dicts.append(get_financial_info(stock.mksc_shrn_iscd))
-
-    # 파일 저장
-    financial_file_path = "../data/FinancialInfo.json"
-    with open(financial_file_path, 'w', encoding="UTF-8") as outfile:
-        json.dump(dicts, outfile, ensure_ascii=False)
